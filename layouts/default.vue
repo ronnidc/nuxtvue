@@ -21,7 +21,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 html {
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
@@ -38,15 +38,6 @@ html {
   margin: 0;
 }
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
-
 .container {
   min-height: 100vh;
   display: flex;
@@ -55,25 +46,35 @@ html {
   text-align: center;
 }
 
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
+.button {
   display: inline-block;
   border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
+  border: 1px solid transparent;
   text-decoration: none;
   padding: 10px 30px;
-  margin-left: 15px;
+  transition: background-color .2s, color .2s;
+  margin: 0 7.5px;
 }
 
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
-}
+  .button--green {
+    color: #3b8070;
+    border-color: #3b8070;
+  }
+
+  .button--green:hover {
+    color: #fff;
+    background-color: #3b8070;
+  }
+
+  .button--grey {
+    border-color: #35495e;
+    color: #35495e;
+  }
+
+  .button--grey:hover {
+    color: #fff;
+    background-color: #35495e;
+  }
 
 .article-title {
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
