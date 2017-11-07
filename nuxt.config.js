@@ -10,18 +10,14 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Nuxt.js project' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: '/css/main.css' }
-    ], 
-    css: [
-      // Load a node module directly (here it's a SASS file)
-      'bulma',
-      // CSS file in the project
-      '@/assets/css/main.css',
-      // SCSS file in the project
-      '@/assets/styles/main.scss'
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+
+  css: [
+    // SCSS file in the project
+    '@/assets/styles/main.scss'
+  ],
   /*
   ** Customize the progress bar color
   */
