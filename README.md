@@ -1,4 +1,4 @@
-# nuxtvuetest
+# Nuxtjs & Vuejs
 
 > Nuxt.js project
 
