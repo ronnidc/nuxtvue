@@ -19,6 +19,15 @@
 			background-color: #3b8070;
 		}
 	}
+
+	&--lightgreen {
+	  color: #41B883;
+	  border-color: #41B883;
+	
+		&:hover {
+			background-color: #41B883;
+		}
+	}
   
 	&--grey {
 	  border-color: #35495e;
