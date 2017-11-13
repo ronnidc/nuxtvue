@@ -1,6 +1,6 @@
 <template>
   <div>
-   <h1 class="article-title">
+   <h1 class="article-title animated bounce animation-config">
         About this
       </h1>
       <h2 class="article-subtitle">
@@ -39,6 +39,10 @@
   }
   h1 {
     color: #3B8070 !important;
+  }
+  .animation-config {
+    animation-delay: 3s;
+    animation-iteration-count: 3;
   }
 
 </style>
