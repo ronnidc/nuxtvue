@@ -1,6 +1,6 @@
 <template>
   <div>
-   <h1 class="article-title">
+   <h1 class="article-title animated bounce animation-config">
         Nuxtjs
       </h1>
       <h2 class="article-subtitle">
@@ -16,8 +16,11 @@
 
 
 
-<style>
+<style lang="scss" scoped>
 
-
+  .animation-config {
+    animation-delay: 4s;
+    animation-iteration-count: 2;
+  }
 
 </style>

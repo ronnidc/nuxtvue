@@ -41,7 +41,7 @@
     color: #3B8070 !important;
   }
   .animation-config {
-    animation-delay: 3s;
+    animation-delay: 4s;
     animation-iteration-count: 2;
   }
 
