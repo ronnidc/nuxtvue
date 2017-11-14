@@ -1,6 +1,6 @@
 # Nuxtjs & Vuejs
 
-> Nuxt.js project
+> [https://nuxtvue.ronnidc.com/](https://nuxtvue.ronnidc.com/)
 
 ## Build Setup
 
