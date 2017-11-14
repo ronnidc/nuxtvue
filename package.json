@@ -4,7 +4,7 @@
   "description": "Nuxt.js project",
   "author": "ronnidc (RDC) <ronnidc@gmail.com>",
   "private": true,
-  "homepage": "http://nuxtvue.github.ronnidc.com/",
+  "homepage": "https://github.com/ronnidc/nuxtvue",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
@@ -12,7 +12,7 @@
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint",
-    "deploy": "node ./node_modules/vue-gh-pages/index.js"
+    "deploy": "nuxt build && nuxt generate && node ./node_modules/vue-gh-pages/index.js"
   },
   "dependencies": {
     "nuxt": "^1.0.0-rc11",
