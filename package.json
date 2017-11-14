@@ -4,7 +4,7 @@
   "description": "Nuxt.js project",
   "author": "ronnidc (RDC) <ronnidc@gmail.com>",
   "private": true,
-  "homepage": "https://github.com/ronnidc/nuxtvue",
+  "homepage": "http://nuxtvue.github.ronnidc.com/",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
