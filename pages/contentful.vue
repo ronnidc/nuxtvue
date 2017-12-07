@@ -11,11 +11,6 @@
 			{{ post.fields.description }}
 			</li>
 		</ul>
-      <div class="article-links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button button--lightgreen">Documentation</a>
-        <a href="https://github.com/ronnidc/nuxtvue" target="_blank" class="button button--grey">GitHub</a>
-        <a href="/" class="button button--green">Home</a>
-      </div>
   </div>
 </template>
 
