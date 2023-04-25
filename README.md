@@ -1,5 +1,7 @@
 # Nuxtjs & Vuejs
 
+*Archived April 25. 2023. Outdated*
+
 > [https://nuxtvue.ronnidc.com/](https://nuxtvue.ronnidc.com/)
 
 ## Build Setup
